@@ -1,7 +1,7 @@
-(defproject noencore "0.3.8-SNAPSHOT"
+(defproject org.clojars.nuclearkev/noencore "0.3.8-SNAPSHOT"
   :description "Clojure and ClojureScript fns not in core."
-  :url "http://github.com/r0man/noencore"
-  :author "r0man"
+  :url "http://github.com/skedlife/noencore"
+  :author "SKED, Inc. & r0man"
   :min-lein-version "2.0.0"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}

@@ -40,7 +40,7 @@
   [bytes]
   (when bytes
     #?(:clj (String. (Base64/encodeBase64 bytes))
-       :cljs (base64/encodeString bytes false))))
+       :cljs (base64/encodeString bytes "0" false))))
 
 (defn base64-decode
   "Returns `s` as a Base64 decoded string."
